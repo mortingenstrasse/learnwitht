@@ -38,6 +38,20 @@ body, html {
     align-items: center;
   }
   
+  /* Badge */
+.badge {
+  width: 100%; /* Beyaz alanla aynı genişlikte */
+  max-width: 420px; /* Desktop için maksimum genişlik */
+  height: auto; /* Orantılı yükseklik */
+  position: absolute; /* Telefon çerçevesine göre konumlandır */
+  top: 60px; /* En üstte sabitle */
+  left: 0; /* Sol kenara hizala */
+}
+
+.badge img {
+  width: 100%; /* Genişliği tamamen kapla */
+  height: auto; /* Orantıyı koru */
+}
   /* İçerik bölgesi */
   .content {
     width: 90%;
