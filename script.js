@@ -30,12 +30,78 @@ const words = [
       "example1": "Children are often more resilient than adults.",
       "example2": "The community showed great resilience after the disaster."
     },
-    {
-        "word": "resilient",
-        "meaning": "able to recover quickly from difficulties",
-        "example1": "Children are often more resilient than adults.",
-        "example2": "The community showed great resilience after the disaster."
-      },
+        {
+          "word": "deterrent",
+          "meaning": "something that discourages or prevents someone from acting",
+          "example1": "The security system acts as a deterrent against theft.",
+          "example2": "High fines serve as a deterrent to reckless driving."
+        },
+        {
+          "word": "submission",
+          "meaning": "the act of yielding to a superior force or authority",
+          "example1": "His submission to the court was well-prepared.",
+          "example2": "She signed the contract in submission to her employer's demands."
+        },
+        {
+          "word": "adherence",
+          "meaning": "the act of following or sticking to rules, beliefs, or standards",
+          "example1": "Strict adherence to the rules ensured fairness.",
+          "example2": "Their adherence to tradition is remarkable."
+        },
+        {
+          "word": "prevalence",
+          "meaning": "the state of being widespread or commonly occurring",
+          "example1": "The prevalence of online shopping has increased significantly.",
+          "example2": "The prevalence of diabetes is rising globally."
+        },
+        {
+          "word": "run into",
+          "meaning": "to encounter someone or something unexpectedly",
+          "example1": "I ran into an old friend at the mall yesterday.",
+          "example2": "They ran into trouble while hiking in the mountains."
+        },
+        {
+          "word": "handover",
+          "meaning": "the act of giving control, responsibility, or possession to someone else",
+          "example1": "The handover of power occurred smoothly after the election.",
+          "example2": "She completed the project and prepared for the handover to her colleague."
+        },
+        {
+          "word": "detrimental",
+          "meaning": "causing harm or damage",
+          "example1": "Smoking is detrimental to your health.",
+          "example2": "Poor diet can have a detrimental effect on performance."
+        },
+        {
+          "word": "industrious",
+          "meaning": "hard-working and diligent",
+          "example1": "He is known as an industrious employee who always meets deadlines.",
+          "example2": "The industrious students finished their project ahead of schedule."
+        },
+        {
+          "word": "assumption",
+          "meaning": "something that is accepted as true without proof",
+          "example1": "Their plan was based on the assumption that prices would remain stable.",
+          "example2": "It's a mistake to make assumptions without clear evidence."
+        },
+        {
+          "word": "demand",
+          "meaning": "a strong request or need for something",
+          "example1": "The demand for electric cars is growing rapidly.",
+          "example2": "His job requires meeting the high demands of clients."
+        },
+        {
+          "word": "everlasting",
+          "meaning": "lasting forever or for a very long time",
+          "example1": "They promised each other everlasting love.",
+          "example2": "The sculpture is a symbol of everlasting beauty."
+        },
+        {
+          "word": "short fuse",
+          "meaning": "a tendency to get angry quickly",
+          "example1": "He has a short fuse and often loses his temper.",
+          "example2": "Be careful what you say—she has a short fuse today."
+        },
        {
             "word": "abundant",
             "meaning": "existing in large quantities; more than enough",
