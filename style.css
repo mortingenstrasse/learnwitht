@@ -1,0 +1,83 @@
+/* Genel stil ayarları */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Arka plan */
+  body {
+    background: url('images/BG.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Telefon ekranı çerçevesi */
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Beyaz alan (kart) */
+  .phone {
+    width: 320px; /* Daha küçük genişlik */
+    height: 550px; /* Daha küçük yükseklik */
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* İçerik bölgesi */
+  .content {
+    width: 90%;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Buton */
+  button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #b2ff59;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #a0e84c;
+  }
