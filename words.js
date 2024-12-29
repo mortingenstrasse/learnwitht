@@ -1,6 +1,146 @@
 // Statik JSON verisi
 const words = [
-    {
+    
+    
+        {
+          "word": "imprecise",
+          "meaning": "not precise; inexact, vague",
+          "example1": "The report was criticized for its imprecise data.",
+          "example2": "Her instructions were so imprecise that we got lost."
+        },
+        {
+          "word": "arid",
+          "meaning": "lacking moisture, especially having insufficient rainfall to support trees or woody plants; lifeless and dull",
+          "example1": "The desert's arid climate makes it difficult for most plants to grow.",
+          "example2": "His lecture was so arid that many students struggled to stay awake."
+        },
+        {
+          "word": "secular",
+          "meaning": "not connected with religious or spiritual matters; worldly",
+          "example1": "The country has a secular government, separating religion from state affairs.",
+          "example2": "Secular music became increasingly popular during the Renaissance."
+        },
+        {
+          "word": "incapable",
+          "meaning": "not able to do something; lacking ability",
+          "example1": "He was incapable of completing the task without assistance.",
+          "example2": "The injury left her incapable of walking for several months."
+        },
+        {
+          "word": "distinctive",
+          "meaning": "having a quality or characteristic that makes something different and easily noticed; unique",
+          "example1": "The distinctive aroma of her cooking filled the house.",
+          "example2": "His distinctive style of writing sets him apart from other authors."
+        },
+        {
+          "word": "annual",
+          "meaning": "occurring once every year",
+          "example1": "The company holds an annual meeting for all its employees.",
+          "example2": "They went on their annual vacation to the mountains."
+        },
+        {
+          "word": "sober",
+          "meaning": "not affected by alcohol; serious, sensible, and solemn",
+          "example1": "After the party, he made sure to have a sober friend drive him home.",
+          "example2": "The news of the tragedy brought a sober mood to the gathering."
+        },
+        {
+          "word": "contagious",
+          "meaning": "spread from one person or organism to another, typically by direct contact",
+          "example1": "The flu is highly contagious and can spread rapidly in schools.",
+          "example2": "Her laughter was contagious, and soon everyone was giggling."
+        },
+        {
+          "word": "odd",
+          "meaning": "different from what is usual or expected; strange",
+          "example1": "He has some odd habits, like talking to his plants.",
+          "example2": "It's odd that she didn't reply to my message; she usually responds quickly."
+        },
+        {
+          "word": "flammable",
+          "meaning": "easily set on fire; combustible",
+          "example1": "Keep flammable materials away from open flames.",
+          "example2": "The storage room contains flammable liquids and should be handled with care."
+        },
+        {
+          "word": "shallow",
+          "meaning": "of little depth; not deep",
+          "example1": "The children played in the shallow end of the pool.",
+          "example2": "His understanding of the topic was shallow, lacking depth and insight."
+        },
+        {
+          "word": "ruthless",
+          "meaning": "having or showing no pity or compassion for others; merciless",
+          "example1": "The dictator was ruthless in suppressing opposition.",
+          "example2": "She made a ruthless decision to cut costs, resulting in many layoffs."
+        },
+        {
+          "word": "sentimental",
+          "meaning": "of or prompted by feelings of tenderness, sadness, or nostalgia",
+          "example1": "He kept the old letters for sentimental reasons.",
+          "example2": "The movie was a sentimental journey back to her childhood."
+        },
+        {
+          "word": "extensive",
+          "meaning": "covering or affecting a large area; large in amount or scale",
+          "example1": "The library has an extensive collection of historical documents.",
+          "example2": "The house suffered extensive damage after the storm."
+        },
+        {
+          "word": "nasty",
+          "meaning": "very bad or unpleasant; malicious",
+          "example1": "She received a nasty cut on her leg after falling.",
+          "example2": "He made a nasty remark that offended many people."
+        },
+        {
+          "word": "permanent",
+          "meaning": "lasting or intended to last or remain unchanged indefinitely",
+          "example1": "She is looking for a permanent job position.",
+          "example2": "The marker left a permanent stain on the carpet."
+        },
+        {
+          "word": "deceived",
+          "meaning": "to mislead by a false appearance or statement; delude",
+          "example1": "He deceived her into thinking he was wealthy.",
+          "example2": "The magician deceived the audience with his clever tricks."
+        },
+        {
+          "word": "deviated",
+          "meaning": "to depart from an established course or norm",
+          "example1": "The plane deviated from its flight path due to bad weather.",
+          "example2": "He deviated from the original plan and took a different approach."
+        },
+        {
+          "word": "obstructed",
+          "meaning": "to block or close up with an obstacle; make difficult to pass",
+          "example1": "The fallen tree obstructed the road, causing a traffic jam.",
+          "example2": "His view of the stage was obstructed by a large pillar."
+        },
+        {
+          "word": "outlawed",
+          "meaning": "to make something illegal; ban or prohibit",
+          "example1": "The government has outlawed the use of certain pesticides.",
+          "example2": "Smoking in public places was outlawed to protect public health."
+        },
+        {
+          "word": "perspired",
+          "meaning": "to secrete moisture through the pores of the skin; sweat",
+          "example1": "He perspired heavily after running the marathon.",
+          "example2": "She was so nervous during the interview that she perspired visibly."
+        },
+        {
+          "word": "persecuted",
+          "meaning": "to subject someone to hostility and ill-treatment, especially because of their race or political or religious beliefs",
+          "example1": "Throughout history, many groups have been persecuted for their beliefs.",
+          "example2": "They fled the country to escape being persecuted for their political views."
+        },
+        {
+          "word": "thrived",
+          "meaning": "to grow or develop well or vigorously; prosper",
+          "example1": "The business thrived after the new marketing strategy was implemented.",
+          "example2": "Her garden thrived despite the harsh climate."
+        },
+         {
       "word": "lethal",
       "meaning": "causing or able to cause death",
       "example1": "Any sharp pointed instrument is potentially a lethal weapon.",
