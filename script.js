@@ -289,7 +289,7 @@ const words = [
   // Paragraf ekranını göster
   function showParagraphScreen() {
     document.querySelector('.content').innerHTML = `
-      <h2>Write a short paragraph using the words which you learnt</h2>
+      <h2>Write a short paragraph using the words you’ve learned.</h2>
       <hr />
       <p><strong>${learnedWords.join(', ')}</strong></p>
       <textarea id="paragraphInput" rows="6" placeholder="Start writing..."></textarea>
