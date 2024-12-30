@@ -26,26 +26,66 @@ body, html {
   
   /* Beyaz alan (kart) */
   .phone {
-    width: 320px; /* Daha küçük genişlik */
-    height: 550px; /* Daha küçük yükseklik */
+    width: 360px;
+    height: 550px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative; /* Tab menüsüne göre ayarla */
   }
-  
-  /* Badge */
+/* Sekme Menüsü */
+.tab-menu {
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  height: 60px; /* Sabit yükseklik */
+  padding: 5px 10px; /* Daha dar padding */
+  position: absolute;
+  top: 0; /* Üste sabitle */
+  left: 0;
+  width: 100%; /* Tam genişlik */
+  z-index: 10; /* İçeriğin üstünde kalması için */
+}
+/* Her bir sekme */
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 5px; /* Daha dar padding */
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Sekme ikonları */
+.tab img {
+  width: 36px; /* Küçültülmüş ikon boyutu */
+  height: 36px;
+}
+
+/* Sekme yazıları */
+.tab p {
+  margin: 3px 0 0; /* Yukarı boşluk ayarlandı */
+  font-size: 12px; /* Daha küçük font boyutu */
+}
+
+/* Aktif sekme için stil */
+.tab.active {
+  background-color: #b9ff6d;
+}
+
+/* Badge */
 .badge {
   width: 100%; /* Beyaz alanla aynı genişlikte */
   max-width: 420px; /* Desktop için maksimum genişlik */
   height: auto; /* Orantılı yükseklik */
   position: absolute; /* Telefon çerçevesine göre konumlandır */
-  top: 60px; /* En üstte sabitle */
+  bottom: 0; /* Alt kısma sabitle */
   left: 0; /* Sol kenara hizala */
+  padding: 10px; /* Kenar boşluğu ekle */
+  background: white; /* Arka plan beyaz */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge ekleyelim */
 }
 
 .badge img {
@@ -54,15 +94,19 @@ body, html {
 }
   /* İçerik bölgesi */
   .content {
-    width: 90%;
-    padding: 20px;
-    text-align: left;
+    flex-grow: 1; /* İçerik alanı genişlesin */
+    overflow-y: auto; /* Scroll aktif */
+    width: 100%; /* İçeriğin tamamını kapla */
+    padding: 20px; /* Kenar boşlukları ekle */
+    box-sizing: border-box; /* Padding dahil genişlik hesapla */
+    text-align: left; /* Sol hizalı tut ama rahatlat */
   }
   
   h1 {
     text-align: center;
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 100px;
   }
   
   hr {
@@ -77,21 +121,51 @@ body, html {
     margin: 10px 0;
   }
   
-  /* Buton */
-  button {
-    width: 100%;
-    padding: 15px;
-    margin-top: 20px;
-    background-color: #b2ff59;
-    color: black;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #a0e84c;
-  }
+/* Grammar İçeriği */
+.grammar-content {
+  height: auto; /* İçeriğin kendi boyutu */
+  overflow-y: auto; /* Scroll aktif */
+  padding: 20px; /* Kenar boşlukları */
+  box-sizing: border-box; /* Padding dahil genişlik hesapla */
+}
+
+/* Header ve başlıklar */
+.grammar-content h1, h2, h3,
+.content h1, h2, h3 {
+  color: #4a90e2; /* Başlık rengi */
+  margin-bottom: 10px;
+  text-align: left; /* Sol hizalı */
+}
+
+/* Paragraflar ve listeler */
+.grammar-content p, ul,
+.content p, ul {
+  font-size: 16px;
+  margin: 10px 0;
+  text-align: left; /* Sol hizalı */
+}
+
+.grammar-content ul,
+.content ul {
+  list-style: square;
+  margin-left: 20px; /* Liste içeriğini sola çek */
+}
+
+/* Butonlar */
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #b2ff59;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #a0e84c;
+}
